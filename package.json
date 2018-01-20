@@ -1,0 +1,20 @@
+{
+  "name": "lupor.fi",
+  "version": "1.0.0",
+  "description": "This is the website for www.lupor.fi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://lupor@bitbucket.org/lupor/lupor.bitbucket.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/lupor/lupor.bitbucket.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "popper.js": "^1.12.9"
+  }
+}

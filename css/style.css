@@ -1,12 +1,11 @@
 :root {
   --background: #2B2B2B;
   --background-lighter: #303030;
-  --font-color: #A9B7C6;
-  --font-color-lighter: hsl(0, 0%, 40%);
+  --font-color: #ccdaeb;
   --primary: #CC7832;
-  --secondary: #9876AA;
+  --secondary: #b591c7;
   --highlight: #A8C023;
-  --shadow: rgb(152, 118, 170, 0.1);
+  --shadow: rgba(181, 145, 199, 0.1);
 }
 
 .jumbotron {

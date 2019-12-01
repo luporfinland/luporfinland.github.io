@@ -1,3 +1,5 @@
+@import "variables";
+
 :root {
   --background: #2B2B2B;
   --background-lighter: #303030;
@@ -9,16 +11,15 @@
   --shadow: rgb(152, 118, 170, 0.1);
 }
 
-.jumbotron {
-  background-color: var(--background-lighter);
-  box-shadow: 0px 2px 5px 1px var(--shadow);
-}
 
-@media (min-width: 576px) {
-  .jumbotron-small {
-    padding: 1rem 2rem;
+@media (prefers-color-scheme: light) {
+  :root {
+
   }
 }
+
+@import "./theme.scss";
+
 body {
   background-color: var(--background);
   color: var(--font-color);
@@ -28,7 +29,7 @@ body {
 
 .top-bar {
   height: 4px;
-  width: 100%;
+  width:100%;
   background-color: var(--primary);
 }
 
@@ -38,21 +39,24 @@ body {
 
 a {
   color: var(--secondary);
-}
-a:hover {
-  color: var(--highlight);
-}
-
-header .navbar {
-  background-color: var(--background-lighter);
+  &:hover {
+    color: var(--highlight);
+  }
 }
 
-main section {
-  margin: 30px 0;
-}
-main hr {
-  background-color: var(--primary);
-  margin: 5px 0;
+header {
+  .navbar {
+    background-color: var(--background-lighter);
+  }
 }
 
-/*# sourceMappingURL=style.css.map */
+main {
+  section {
+    margin: $margin-top 0;
+  }
+
+  hr {
+    background-color: var(--primary);
+    margin: $hr-margin 0;
+  }
+}

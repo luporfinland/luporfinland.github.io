@@ -1,0 +1,14 @@
+$margin-top: 30px;
+$padding-medium: 2rem;
+$padding-small: 1rem;
+
+$border-top: 2px solid var(--secondary);
+$hr-margin: 5px;
+
+$box-shadow: 0px 2px 5px 1px var(--shadow);
+
+// Bootstrap variables
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$grid-breakpoint-sm: map_get($grid-breakpoints, "sm");

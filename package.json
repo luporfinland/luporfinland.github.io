@@ -14,7 +14,10 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/lupor/lupor.bitbucket.io#readme",
   "dependencies": {
-    "bootstrap": "^4.0.0",
-    "popper.js": "^1.12.9"
+    "bootstrap": "^4.4.1",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "yuicompressor": "^2.4.8"
   }
 }

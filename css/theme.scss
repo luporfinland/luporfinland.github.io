@@ -3,10 +3,12 @@
 .jumbotron {
   background-color: var(--background-lighter);
   box-shadow: $box-shadow;
+  padding: $padding-small;
+  margin-bottom: $margin-small;
 }
 
 @media (min-width: $grid-breakpoint-sm) {
   .jumbotron-small {
-    padding: $padding-small $padding-medium;
+    padding: $padding-small;
   }
 }

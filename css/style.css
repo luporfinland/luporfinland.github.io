@@ -11,11 +11,13 @@
 .jumbotron {
   background-color: var(--background-lighter);
   box-shadow: 0px 2px 5px 1px var(--shadow);
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 576px) {
   .jumbotron-small {
-    padding: 1rem 2rem;
+    padding: 1rem;
   }
 }
 body {
@@ -52,6 +54,14 @@ main section {
 main hr {
   background-color: var(--primary);
   margin: 5px 0;
+}
+
+.section-offers, .section-location {
+  padding: 0 1rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -10,7 +10,6 @@
   --shadow: rgba(181, 145, 199, 0.1);
 }
 
-
 @media (prefers-color-scheme: light) {
   :root {
 
@@ -58,4 +57,12 @@ main {
     background-color: var(--primary);
     margin: $hr-margin 0;
   }
+}
+
+.section-offers, .section-location {
+  padding: 0 $padding-small;
+}
+
+p {
+  margin-bottom: $padding-extra-small;
 }

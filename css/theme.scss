@@ -1,14 +1,14 @@
-@import "variables";
+@use "variables";
 
 .jumbotron {
   background-color: var(--background-lighter);
-  box-shadow: $box-shadow;
-  padding: $padding-small;
-  margin-bottom: $margin-small;
+  box-shadow: variables.$box-shadow;
+  padding: variables.$padding-small;
+  margin-bottom: variables.$margin-small;
 }
 
-@media (min-width: $grid-breakpoint-sm) {
+@media (min-width: variables.$grid-breakpoint-sm) {
   .jumbotron-small {
-    padding: $padding-small;
+    padding: variables.$padding-small;
   }
 }
